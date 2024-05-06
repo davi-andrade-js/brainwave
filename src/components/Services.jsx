@@ -11,8 +11,8 @@ const Services = () => {
       <div className="container">
         <Heading
           className=""
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="IA generativa para criadores."
+          text="Brainwave desbloqueia o pontecial de aplicativos de IA"
         />
 
         <div className="relative">
@@ -31,9 +31,9 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+              <h4 className="h4 mb-4">A IA mais inteligente</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                Brainwave desbloqueia o pontecial de aplicativos de IA
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -67,10 +67,10 @@ const Services = () => {
                 className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90
               lg:p-15"
               >
-                <h4 className="h4 mb-4">Photo editing</h4>
+                <h4 className="h4 mb-4">Edição de fotos</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s photo eiditing feature.
-                  Try it now!
+                  Melhore suas fotos automaticamente usando o recurso de edição de fotos do nosso
+                  aplicativo de IA. Teste agora!
                 </p>
               </div>
 
@@ -79,10 +79,9 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Geração de vídeo</h4>
                 <p className="body-2 mb-[2rem] text-n-2">
-                  The world&apos;s most powerful AI photo and video art generation engine. What will
-                  you create?
+                  O gerador de vídeos e fotos com IA mais poderoso do mundo. O que você irá criar?
                 </p>
 
                 <ul className="flex items-center justify-between">

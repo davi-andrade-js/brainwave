@@ -9,7 +9,7 @@ const Collaboration = () => {
     <Section crosses>
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
-          <h2 className="h2 mb-4 md:mb-8">AI Chat App for seamless collaboration</h2>
+          <h2 className="h2 mb-4 md:mb-8">Chat com IA para uma colaboração perfeita</h2>
 
           <ul className="max-2-[22rem] mb-10 md:md-14">
             {collabContent.map((item) => (
@@ -17,13 +17,13 @@ const Collaboration = () => {
                 <div className="flex items-center">
                   <img src={check} width={24} height={24} alt="Check" />
                   <h6 className="body-2 ml-5">{item.title}</h6>
-                  {item.text && <p className="body-2 ml-5 text-n-4">{item.text}</p>}
                 </div>
+                {item.text && <p className="body-2 mt-3 text-n-4">{item.text}</p>}
               </li>
             ))}
           </ul>
 
-          <Button>Try it now</Button>
+          <Button>Testar agora</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

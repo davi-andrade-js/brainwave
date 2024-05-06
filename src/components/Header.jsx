@@ -68,10 +68,10 @@ const Header = () => {
           href="#signup"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
-          New account
+          Criar conta
         </a>
         <Button className="hidden lg:flex" href="#signin">
-          Sign in
+          Entrar
         </Button>
 
         <Button className="ml-auto lg:hidden" px="px-3" onClick={toggleNavigation}>
